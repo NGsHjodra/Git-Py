@@ -20,3 +20,5 @@ for dir in directorys:
 subprocess.run(['git'] + ['status'])
 
 subprocess.run(['git'] + ['commit'] + ['-am'] + ['"add all main.cpp"'])
+
+subprocess.run(['git'] + ['push'])
